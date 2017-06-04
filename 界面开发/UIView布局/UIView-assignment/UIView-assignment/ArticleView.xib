@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vJJ-cX-mZm" customClass="ArticleView">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-avatar" translatesAutoresizingMaskIntoConstraints="NO" id="Rn0-q0-bJ2">
+                    <rect key="frame" x="8" y="8" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="ArC-EO-nsm"/>
+                        <constraint firstAttribute="width" constant="22" id="u62-aV-U9o"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYZ-dm-dii" userLabel="Label-left">
+                    <rect key="frame" x="38" y="8" width="31" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZJ-Q2-0sq" userLabel="Label-content">
+                    <rect key="frame" x="38" y="27.5" width="345" height="67.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.5607843137254902" green="0.55686274509803924" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKq-w7-Jrx" userLabel="Label-right">
+                    <rect key="frame" x="352" y="8" width="31" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.5607843137254902" green="0.55686274509803924" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EZJ-Q2-0sq" firstAttribute="top" secondItem="bYZ-dm-dii" secondAttribute="bottom" constant="5" id="BYq-kD-tZF"/>
+                <constraint firstItem="Rn0-q0-bJ2" firstAttribute="top" secondItem="vJJ-cX-mZm" secondAttribute="top" constant="8" id="BvH-nx-YiO"/>
+                <constraint firstItem="Rn0-q0-bJ2" firstAttribute="leading" secondItem="vJJ-cX-mZm" secondAttribute="leading" constant="8" id="NFj-kH-5kO"/>
+                <constraint firstItem="mKq-w7-Jrx" firstAttribute="trailing" secondItem="EZJ-Q2-0sq" secondAttribute="trailing" id="cKj-67-uP8"/>
+                <constraint firstAttribute="trailing" secondItem="EZJ-Q2-0sq" secondAttribute="trailing" constant="8" id="cPv-kT-SSG"/>
+                <constraint firstAttribute="trailing" secondItem="mKq-w7-Jrx" secondAttribute="trailing" constant="8" id="eWr-lQ-Bcy"/>
+                <constraint firstItem="mKq-w7-Jrx" firstAttribute="top" secondItem="vJJ-cX-mZm" secondAttribute="top" constant="8" id="ixg-cr-wx4"/>
+                <constraint firstItem="EZJ-Q2-0sq" firstAttribute="leading" secondItem="bYZ-dm-dii" secondAttribute="leading" id="mqW-BU-2IT"/>
+                <constraint firstAttribute="bottom" secondItem="EZJ-Q2-0sq" secondAttribute="bottom" constant="8" id="nTd-1n-Vjs"/>
+                <constraint firstItem="bYZ-dm-dii" firstAttribute="top" secondItem="vJJ-cX-mZm" secondAttribute="top" constant="8" id="qRB-Gg-xWw"/>
+                <constraint firstItem="bYZ-dm-dii" firstAttribute="leading" secondItem="Rn0-q0-bJ2" secondAttribute="trailing" constant="8" id="wVr-4L-jXd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentLabel" destination="EZJ-Q2-0sq" id="UbE-bK-0F4"/>
+                <outlet property="datetimeLabel" destination="mKq-w7-Jrx" id="Hbo-xz-Cd0"/>
+                <outlet property="userNameLabel" destination="bYZ-dm-dii" id="Ava-Qa-aOf"/>
+            </connections>
+            <point key="canvasLocation" x="130.5" y="-60.5"/>
+        </view>
+        <viewController id="Saj-Nd-9Fv">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="HXb-GQ-OM7"/>
+                <viewControllerLayoutGuide type="bottom" id="WbO-m0-aNR"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="OM3-Fw-5yv">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="我的主页标注.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v2m-gB-U4h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <point key="canvasLocation" x="567" y="222"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="icon-avatar" width="22" height="22"/>
+        <image name="我的主页标注.jpg" width="750" height="1334"/>
+    </resources>
+</document>
