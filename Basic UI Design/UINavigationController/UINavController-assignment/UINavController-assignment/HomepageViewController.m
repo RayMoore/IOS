@@ -72,11 +72,20 @@
     
 }
 
+- (void)showMessageWithTitle:(NSString*)title andMessage:(NSString*)msg{
+    UIAlertController *messageAlertController = [UIAlertController alertControllerWithTitle:title message:msg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:nil];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:nil];
+    
+    [messageAlertController addAction:cancelAction];
+    [messageAlertController addAction:okAction];
+    [self presentViewController:messageAlertController animated:YES completion:nil];
+}
 - (void)scan{
-    NSLog(@"scanning");
+    [self showMessageWithTitle:@"Scanning" andMessage:@"using camera..."];
 }
 - (void)getMessage{
-    NSLog(@"getting messages");
+    [self showMessageWithTitle:@"Message" andMessage:@"checking messages..."];
 }
 
 - (void)gotoH5{

@@ -55,7 +55,7 @@
 
 
 - (void)share{
-    UIAlertController *shareAlertController = [UIAlertController alertControllerWithTitle:@"Sharing" message:@"share this page." preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *shareAlertController = [UIAlertController alertControllerWithTitle:@"Sharing" message:@"share this page..." preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:nil];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:nil];
     
