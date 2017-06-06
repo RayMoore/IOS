@@ -1,9 +1,9 @@
 //
 //  SecondViewController.m
-//  TabBar
+//  UITabbarController-assignment
 //
-//  Created by wtndcs on 16/8/17.
-//  Copyright © 2016年 Netease. All rights reserved.
+//  Created by Ray on 07/06/2017.
+//  Copyright © 2017 com.netease.homework. All rights reserved.
 //
 
 #import "SecondViewController.h"
@@ -17,19 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    UIImage *secondNormalImage =  [[UIImage imageNamed:@"tab_activity"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *secondSelectedImage =  [[UIImage imageNamed:@"tab_activity_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"活动" image:secondNormalImage selectedImage:secondSelectedImage];
-    
-    self.tabBarItem.titlePositionAdjustment = UIOffsetMake(-2, -2);
-
-    
+//    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"活动" image:[UIImage imageNamed:@"tab_activity"] selectedImage:[UIImage imageNamed:@"tab_activity_select"]];
 }
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
+- (IBAction)readMessage:(id)sender {
+    self.tabBarItem.badgeValue = nil;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -28,19 +28,14 @@
     FourthViewController *fourth = [[FourthViewController alloc] init];
     FifthViewController *fifth = [[FifthViewController alloc] init];
     
+    [self.tabBar setBackgroundColor:[UIColor whiteColor]];
     self.viewControllers = @[ first, second, third, fourth, fifth ];
     
-    second.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Item 2" image:nil selectedImage:nil];
-    third.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Item 3" image:nil selectedImage:nil];
-    fourth.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Item 4" image:nil selectedImage:nil];
-    fifth.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Item 5" image:nil selectedImage:nil];
-    
-    self.tabBar.backgroundImage = [UIImage imageNamed:@"barBack"];
     self.tabBar.shadowImage = [UIImage imageNamed:@"shadowBorder"];
     // self.tabBar.tintColor = [UIColor redColor];
     self.tabBar.selectionIndicatorImage = [UIImage imageNamed:@"tab_indicator"];
-    self.tabBar.itemWidth = 60;
-    self.tabBar.itemSpacing = 20;
+    self.tabBar.itemWidth = 100;
+    self.tabBar.itemSpacing = 10;
     self.delegate = self;
     
     //self.tabBar.barTintColor = [UIColor grayColor];
@@ -49,21 +44,20 @@
     // Do any additional setup after loading the view.
 }
 
-- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
-{
-    if ([viewController isKindOfClass:[ThirdViewController class]]) {
-        UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-        picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-        picker.allowsEditing = NO;
-        [self presentViewController:picker animated:YES completion:nil];
-        
-        return NO;
-    }
-    return YES;
-}
+//- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
+//{
+//    if ([viewController isKindOfClass:[ThirdViewController class]]) {
+//        UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+//        picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+//        picker.allowsEditing = NO;
+//        [self presentViewController:picker animated:YES completion:nil];
+//        
+//        return NO;
+//    }
+//    return YES;
+//}
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-    NSLog(@"%@", viewController);
 }
 
 - (void)didReceiveMemoryWarning {

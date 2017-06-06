@@ -1,9 +1,9 @@
 //
 //  FifthViewController.m
-//  TabBar
+//  UITabbarController-assignment
 //
-//  Created by wtndcs on 16/8/17.
-//  Copyright © 2016年 Netease. All rights reserved.
+//  Created by Ray on 07/06/2017.
+//  Copyright © 2017 com.netease.homework. All rights reserved.
 //
 
 #import "FifthViewController.h"
@@ -17,14 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    UIImage *fifthNormalImage =  [[UIImage imageNamed:@"tab_mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    UIImage *fifthSelectedImage =  [[UIImage imageNamed:@"tab_mine_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的考拉" image:fifthNormalImage selectedImage:fifthSelectedImage];
-    
-    self.tabBarItem.titlePositionAdjustment = UIOffsetMake(-2, -2);
-
+//    self.tabBarItem  = [[UITabBarItem alloc] initWithTitle:@"我的考拉" image:[UIImage imageNamed:@"tab_mine"] selectedImage:[UIImage imageNamed:@"tab_mine_select"]];
 }
 
 - (void)didReceiveMemoryWarning {

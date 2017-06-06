@@ -6,13 +6,13 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "navback@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "购物车hover@2x.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "navback@2x副本.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "购物车hover@3x.png"
     }
   ],
   "info" : {

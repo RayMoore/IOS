@@ -17,24 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor blueColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    UIImage *normalImage =  [[UIImage imageNamed:@"tab_home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *firstNormalImage =  [[UIImage imageNamed:@"tab_home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    UIImage *firstSelectedImage =  [[UIImage imageNamed:@"tab_home_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:firstNormalImage selectedImage:firstSelectedImage];
     
-    UIImage *selectedImage =  [[UIImage imageNamed:@"tab_home_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    self.tabBarItem.badgeValue = @"10";
+    self.tabBarItem.titlePositionAdjustment = UIOffsetMake(-2, -2);
+//    
+//    NSShadow *shadow = [NSShadow new];
+////    [shadow setShadowColor:[UIColor colorWithWhite:0.0f alpha:0.750f]];
+//    [shadow setShadowOffset:CGSizeMake(0.0f, 1.0f)];
     
-    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"First" image:normalImage selectedImage:selectedImage];
+//    NSDictionary *tabBarTitleTextAttributes = @{ NSForegroundColorAttributeName:[UIColor orangeColor], NSShadowAttributeName: shadow };
     
-    self.tabBarItem.badgeValue = @"10";
-    self.tabBarItem.titlePositionAdjustment = UIOffsetMake(-10, -10);
-    
-    NSShadow *shadow = [NSShadow new];
-    [shadow setShadowColor:[UIColor colorWithWhite:0.0f alpha:0.750f]];
-    [shadow setShadowOffset:CGSizeMake(0.0f, 1.0f)];
-    
-    NSDictionary *tabBarTitleTextAttributes = @{ NSForegroundColorAttributeName:[UIColor orangeColor], NSShadowAttributeName: shadow };
-    
-    [self.tabBarItem setTitleTextAttributes:tabBarTitleTextAttributes forState:UIControlStateNormal];
+//    [self.tabBarItem setTitleTextAttributes:tabBarTitleTextAttributes forState:UIControlStateNormal];
     
     // Do any additional setup after loading the view.
 }
