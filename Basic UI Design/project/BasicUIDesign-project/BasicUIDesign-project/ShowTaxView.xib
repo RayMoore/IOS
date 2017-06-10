@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lCJ-B3-5jx" customClass="ShowTaxView">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ljf-ZN-3Bh">
+                    <rect key="frame" x="0.0" y="0.0" width="326" height="58"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="税率11.9%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rui-Di-M4x">
+                            <rect key="frame" x="20" y="19" width="77" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="rui-Di-M4x" firstAttribute="leading" secondItem="Ljf-ZN-3Bh" secondAttribute="leading" constant="20" id="4Rb-Je-rPG"/>
+                        <constraint firstItem="rui-Di-M4x" firstAttribute="centerY" secondItem="Ljf-ZN-3Bh" secondAttribute="centerY" id="NRh-nX-ZKc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ljf-ZN-3Bh" firstAttribute="leading" secondItem="lCJ-B3-5jx" secondAttribute="leading" id="DEg-m3-HJk"/>
+                <constraint firstAttribute="bottom" secondItem="Ljf-ZN-3Bh" secondAttribute="bottom" id="G8C-T0-uVz"/>
+                <constraint firstAttribute="trailing" secondItem="Ljf-ZN-3Bh" secondAttribute="trailing" id="P5S-gI-pMc"/>
+                <constraint firstItem="Ljf-ZN-3Bh" firstAttribute="top" secondItem="lCJ-B3-5jx" secondAttribute="top" id="u2s-hc-sqS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="showTaxLabel" destination="rui-Di-M4x" id="ZGQ-z5-7Ts"/>
+            </connections>
+            <point key="canvasLocation" x="101" y="250"/>
+        </view>
+    </objects>
+</document>

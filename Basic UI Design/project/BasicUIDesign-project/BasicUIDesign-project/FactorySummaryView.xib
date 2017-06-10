@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FactorySummaryView">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gx9-Gw-t3D">
+                    <rect key="frame" x="0.0" y="0.0" width="363" height="121"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本仓税费：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJ6-f6-Lgs">
+                            <rect key="frame" x="196" y="19" width="87" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqv-Yh-R4t">
+                            <rect key="frame" x="311" y="19" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活动优惠：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6u-FI-UpS">
+                            <rect key="frame" x="196" y="50" width="87" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-￥0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-Tl-T55">
+                            <rect key="frame" x="293" y="50" width="60" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本仓总计(不含税)：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9a-Vl-bsk">
+                            <rect key="frame" x="133" y="81" width="150" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmH-UF-8Db">
+                            <rect key="frame" x="311" y="81" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vqv-Yh-R4t" secondAttribute="trailing" constant="10" id="32X-8y-YB7"/>
+                        <constraint firstAttribute="trailing" secondItem="d6u-FI-UpS" secondAttribute="trailing" constant="80" id="3uv-k3-bWo"/>
+                        <constraint firstItem="WQl-Tl-T55" firstAttribute="top" secondItem="vqv-Yh-R4t" secondAttribute="bottom" constant="10" id="6CZ-1d-047"/>
+                        <constraint firstItem="d6u-FI-UpS" firstAttribute="centerY" secondItem="gx9-Gw-t3D" secondAttribute="centerY" id="6HQ-66-sTr"/>
+                        <constraint firstAttribute="trailing" secondItem="J9a-Vl-bsk" secondAttribute="trailing" constant="80" id="6Op-Et-NFg"/>
+                        <constraint firstItem="pmH-UF-8Db" firstAttribute="top" secondItem="WQl-Tl-T55" secondAttribute="bottom" constant="10" id="Cqe-mx-LGl"/>
+                        <constraint firstItem="WQl-Tl-T55" firstAttribute="centerY" secondItem="gx9-Gw-t3D" secondAttribute="centerY" id="Esq-KL-Hd1"/>
+                        <constraint firstItem="d6u-FI-UpS" firstAttribute="top" secondItem="MJ6-f6-Lgs" secondAttribute="bottom" constant="10" id="WeT-wp-WL5"/>
+                        <constraint firstAttribute="trailing" secondItem="WQl-Tl-T55" secondAttribute="trailing" constant="10" id="Zun-Wg-Kd6"/>
+                        <constraint firstAttribute="trailing" secondItem="MJ6-f6-Lgs" secondAttribute="trailing" constant="80" id="ghN-4j-na2"/>
+                        <constraint firstAttribute="trailing" secondItem="pmH-UF-8Db" secondAttribute="trailing" constant="10" id="m4v-pk-Pev"/>
+                        <constraint firstItem="J9a-Vl-bsk" firstAttribute="top" secondItem="d6u-FI-UpS" secondAttribute="bottom" constant="10" id="t61-yn-9Hf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23H-Uy-P2K" userLabel="Bottom View">
+                    <rect key="frame" x="0.0" y="121" width="363" height="10"/>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Pfn-wN-Dk2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gx9-Gw-t3D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5dP-Cf-Rlh"/>
+                <constraint firstItem="gx9-Gw-t3D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Hj-LP-F2p"/>
+                <constraint firstItem="23H-Uy-P2K" firstAttribute="top" secondItem="gx9-Gw-t3D" secondAttribute="bottom" id="CG0-iX-VCq"/>
+                <constraint firstItem="23H-Uy-P2K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gr5-LW-dmP"/>
+                <constraint firstAttribute="bottom" secondItem="23H-Uy-P2K" secondAttribute="bottom" id="RIJ-hT-58h"/>
+                <constraint firstAttribute="trailing" secondItem="23H-Uy-P2K" secondAttribute="trailing" id="XRi-mN-Hxt"/>
+                <constraint firstAttribute="trailing" secondItem="gx9-Gw-t3D" secondAttribute="trailing" id="qb3-df-08K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sumInThisFactoryLabel" destination="pmH-UF-8Db" id="wNp-2F-rcK"/>
+                <outlet property="taxInThisFactoryLabel" destination="vqv-Yh-R4t" id="Lp6-YB-ZFB"/>
+            </connections>
+            <point key="canvasLocation" x="-55.5" y="-74.5"/>
+        </view>
+    </objects>
+</document>
