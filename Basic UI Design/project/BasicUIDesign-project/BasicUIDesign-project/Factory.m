@@ -64,7 +64,24 @@
 }
 
 - (void)removeItem:(Item*) item{
+    NSInteger count = [[self.items objectForKey:item] integerValue];
+    self.itemTotalTaxInFactory -= item.itemTax * count;
+    self.itemTotalPriceInFactory -= item.itemPrice * count;
     [self.items removeObjectForKey:item];
 }
+
+- (CGFloat)getItemTotalTaxInFactory{
+    return self.itemTotalTaxInFactory;
+}
+
+- (CGFloat)getItemTotalPriceInFactory{
+    return self.itemTotalPriceInFactory;
+}
+
+
+- (CGFloat)getItemTotalPriceIncludingTaxInFactory{
+    return self.itemTotalPriceInFactory + self.itemTotalTaxInFactory;
+}
+
 
 @end

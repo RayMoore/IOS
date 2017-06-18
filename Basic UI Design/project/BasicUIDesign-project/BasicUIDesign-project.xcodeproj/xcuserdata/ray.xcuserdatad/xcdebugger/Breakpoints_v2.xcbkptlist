@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BasicUIDesign-project/CartMainViewController.m"
-            timestampString = "518756067.153587"
+            timestampString = "519453074.156095"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "-showMessageWithTitle:andMessage:"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "-updateCellByShowingTaxDetailWithCellIndexPath:andIfShowTaxDetail:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BasicUIDesign-project/CartMainViewController.m"
-            timestampString = "518756067.153587"
+            filePath = "BasicUIDesign-project/CartTableViewCell.m"
+            timestampString = "519185734.741372"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
-            landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-checkTaxDetail"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -31,9 +31,10 @@
 		719B87CC1EE9AEBB002C072D /* FactorySummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B87CB1EE9AEBB002C072D /* FactorySummaryView.m */; };
 		719B87CE1EE9AED3002C072D /* FactorySummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719B87CD1EE9AED3002C072D /* FactorySummaryView.xib */; };
 		719B87D41EE9F0BB002C072D /* CartTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B87D31EE9F0BB002C072D /* CartTableView.m */; };
-		719B87D71EE9F93F002C072D /* ShowTaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B87D61EE9F93F002C072D /* ShowTaxView.m */; };
-		719B87D91EE9F94E002C072D /* ShowTaxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719B87D81EE9F94E002C072D /* ShowTaxView.xib */; };
 		719B87DC1EEB8E25002C072D /* CellPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B87DB1EEB8E25002C072D /* CellPosition.m */; };
+		71B4725F1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B4725E1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.m */; };
+		71B472621EF5EC880035FE3F /* CheckoutTaxChangeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B472611EF5EC880035FE3F /* CheckoutTaxChangeObserver.m */; };
+		71C224281EF0321F00056BA6 /* ImageChangeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C224271EF0321F00056BA6 /* ImageChangeObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,11 +75,14 @@
 		719B87CD1EE9AED3002C072D /* FactorySummaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactorySummaryView.xib; sourceTree = "<group>"; };
 		719B87D21EE9F0BB002C072D /* CartTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableView.h; sourceTree = "<group>"; };
 		719B87D31EE9F0BB002C072D /* CartTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableView.m; sourceTree = "<group>"; };
-		719B87D51EE9F93F002C072D /* ShowTaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTaxView.h; sourceTree = "<group>"; };
-		719B87D61EE9F93F002C072D /* ShowTaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTaxView.m; sourceTree = "<group>"; };
-		719B87D81EE9F94E002C072D /* ShowTaxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowTaxView.xib; sourceTree = "<group>"; };
 		719B87DA1EEB8E25002C072D /* CellPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPosition.h; sourceTree = "<group>"; };
 		719B87DB1EEB8E25002C072D /* CellPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPosition.m; sourceTree = "<group>"; };
+		71B4725D1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutPriceChangeObserver.h; sourceTree = "<group>"; };
+		71B4725E1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutPriceChangeObserver.m; sourceTree = "<group>"; };
+		71B472601EF5EC880035FE3F /* CheckoutTaxChangeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutTaxChangeObserver.h; sourceTree = "<group>"; };
+		71B472611EF5EC880035FE3F /* CheckoutTaxChangeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutTaxChangeObserver.m; sourceTree = "<group>"; };
+		71C224261EF0321F00056BA6 /* ImageChangeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageChangeObserver.h; sourceTree = "<group>"; };
+		71C224271EF0321F00056BA6 /* ImageChangeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageChangeObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +137,6 @@
 				719B877F1EE87AD1002C072D /* main.m */,
 				719B87951EE87B11002C072D /* CartNavViewController.h */,
 				719B87961EE87B11002C072D /* CartNavViewController.m */,
-				719B87981EE87D39002C072D /* CartMainViewController.h */,
-				719B87991EE87D39002C072D /* CartMainViewController.m */,
 				719B87BA1EE95718002C072D /* CartTableViewCell.h */,
 				719B87BB1EE95718002C072D /* CartTableViewCell.m */,
 				719B87BC1EE95718002C072D /* CartTableViewCell.xib */,
@@ -144,9 +146,14 @@
 				719B87CA1EE9AEBB002C072D /* FactorySummaryView.h */,
 				719B87CB1EE9AEBB002C072D /* FactorySummaryView.m */,
 				719B87CD1EE9AED3002C072D /* FactorySummaryView.xib */,
-				719B87D51EE9F93F002C072D /* ShowTaxView.h */,
-				719B87D61EE9F93F002C072D /* ShowTaxView.m */,
-				719B87D81EE9F94E002C072D /* ShowTaxView.xib */,
+				719B87981EE87D39002C072D /* CartMainViewController.h */,
+				719B87991EE87D39002C072D /* CartMainViewController.m */,
+				71C224261EF0321F00056BA6 /* ImageChangeObserver.h */,
+				71C224271EF0321F00056BA6 /* ImageChangeObserver.m */,
+				71B4725D1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.h */,
+				71B4725E1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.m */,
+				71B472601EF5EC880035FE3F /* CheckoutTaxChangeObserver.h */,
+				71B472611EF5EC880035FE3F /* CheckoutTaxChangeObserver.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,7 +273,6 @@
 				719B87B71EE8AEE5002C072D /* item1.jpeg in Resources */,
 				719B87B91EE8AEE5002C072D /* item3.jpeg in Resources */,
 				719B87B81EE8AEE5002C072D /* item2.jpeg in Resources */,
-				719B87D91EE9F94E002C072D /* ShowTaxView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,12 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719B87D71EE9F93F002C072D /* ShowTaxView.m in Sources */,
+				71C224281EF0321F00056BA6 /* ImageChangeObserver.m in Sources */,
 				719B87CC1EE9AEBB002C072D /* FactorySummaryView.m in Sources */,
+				71B4725F1EF5DFB00035FE3F /* CheckoutPriceChangeObserver.m in Sources */,
 				719B87A61EE890E0002C072D /* Item.m in Sources */,
 				719B87BD1EE95718002C072D /* CartTableViewCell.m in Sources */,
 				719B87D41EE9F0BB002C072D /* CartTableView.m in Sources */,
 				719B87B21EE8A224002C072D /* CartController.m in Sources */,
+				71B472621EF5EC880035FE3F /* CheckoutTaxChangeObserver.m in Sources */,
 				719B87C71EE9A3DB002C072D /* CartSectionView.m in Sources */,
 				719B87831EE87AD1002C072D /* AppDelegate.m in Sources */,
 				719B879A1EE87D39002C072D /* CartMainViewController.m in Sources */,
@@ -447,6 +455,7 @@
 				719B87941EE87AD1002C072D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

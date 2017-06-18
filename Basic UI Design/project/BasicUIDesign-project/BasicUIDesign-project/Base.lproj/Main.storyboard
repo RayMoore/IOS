@@ -29,7 +29,6 @@
         <!--Cart Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="CartMainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -116,12 +115,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="税金" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuc-7j-sbY" userLabel="tax label">
-                                                <rect key="frame" x="154" y="33" width="113" height="17"/>
+                                                <rect key="frame" x="127" y="33" width="140" height="17"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="dll-HW-zK0"/>
                                                     <constraint firstAttribute="height" constant="17" id="qLU-g3-Lac"/>
-                                                    <constraint firstAttribute="width" constant="113" id="z2K-4R-REz"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -193,9 +192,10 @@
                         <outlet property="checkoutButton" destination="P4L-jZ-UmZ" id="YBT-Ye-idi"/>
                         <outlet property="refreshIndicatorLabel" destination="NZn-IE-nlj" id="I6y-50-wE0"/>
                         <outlet property="refreshLabel" destination="0em-YZ-H8C" id="Gmf-V3-vEo"/>
-                        <outlet property="totalTaxLabel" destination="xuc-7j-sbY" id="fDF-1V-GEC"/>
+                        <outlet property="totalTaxLabel" destination="xuc-7j-sbY" id="p0l-kX-VY1"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-895.20000000000005" y="-108.39580209895054"/>
         </scene>

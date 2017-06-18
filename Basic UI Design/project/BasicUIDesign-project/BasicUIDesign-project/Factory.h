@@ -13,10 +13,21 @@
 @interface Factory : NSObject <NSCopying>
 
 -(instancetype)initWithFactoryName:(NSString *) name;
+
 - (void)addItem:(Item*) item withItemCount:(NSInteger) count;
+
 - (NSInteger)getItemNumber;
+
 -(NSString*)getFactoryName;
+
 -(NSMutableDictionary*)getItems;
+
 - (void)removeItem:(Item*) item;
+
+- (CGFloat)getItemTotalPriceInFactory;
+
+- (CGFloat)getItemTotalTaxInFactory;
+
+- (CGFloat)getItemTotalPriceIncludingTaxInFactory;
 
 @end

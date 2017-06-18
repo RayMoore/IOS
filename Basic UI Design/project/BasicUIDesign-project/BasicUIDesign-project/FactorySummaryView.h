@@ -7,11 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CartMainViewController.h"
 
 @interface FactorySummaryView : UITableViewCell
-@property (assign,atomic) CGFloat taxInFactory;
-@property (assign,atomic) CGFloat sumInFactory;
-@property (weak, nonatomic) IBOutlet UILabel *taxInThisFactoryLabel;
-@property (weak, nonatomic) IBOutlet UILabel *sumInThisFactoryLabel;
+
+-(void)setSummaryViewPrice:(CGFloat)price andTax:(CGFloat)tax;
+
+-(void)substractPrice:(CGFloat)price andTax:(CGFloat)tax;
+
+-(void)addPrice:(CGFloat)price andTax:(CGFloat)tax;
+
+-(void)getFactorySummaryDetail;
+
+//-(void)ignoreCheckoutObserver;
+
+-(void)setupWithController:(CartMainViewController*)controller;
 
 @end

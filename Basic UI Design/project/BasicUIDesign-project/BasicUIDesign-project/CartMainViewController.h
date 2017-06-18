@@ -16,4 +16,14 @@ static NSString* FACTORY_SUMMARY_VIEW = @"FactorySummaryView";
 
 - (void)sectionAllChoose:(NSInteger)section andSelection:(BOOL)ifChoose;
 
+- (void)updateCellByShowingTaxDetailWithCellIndexPath:(NSIndexPath*)indexPath andIfShowTaxDetail:(BOOL)ifShow;
+
+- (void)cancelCellWithIndexPath:(NSIndexPath*)indexPath;
+
+- (void)chooseCellWithIndexPath:(NSIndexPath*)indexPath;
+
+- (void)updateTotalPrice:(CGFloat)price;
+
+-(void)updateTotalTax:(CGFloat)tax;
+
 @end
