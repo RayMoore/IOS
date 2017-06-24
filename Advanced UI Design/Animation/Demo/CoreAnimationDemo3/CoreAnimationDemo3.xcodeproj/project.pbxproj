@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8E03D01D44852F00F41EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E03CF1D44852F00F41EAF /* main.m */; };
+		DE8E03D31D44852F00F41EAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8E03D21D44852F00F41EAF /* AppDelegate.m */; };
+		DE8E03D51D44852F00F41EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8E03D41D44852F00F41EAF /* Assets.xcassets */; };
+		DE8E03D81D44852F00F41EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8E03D61D44852F00F41EAF /* LaunchScreen.storyboard */; };
+		DEF646111D5492F700454CAA /* RecordWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6460C1D5492F700454CAA /* RecordWaveView.m */; };
+		DEF646121D5492F700454CAA /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6460E1D5492F700454CAA /* WaveLayer.m */; };
+		DEF646131D5492F700454CAA /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF646101D5492F700454CAA /* WaveViewController.m */; };
+		DEF6461A1D5493F900454CAA /* CPRecordWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF646171D5493F900454CAA /* CPRecordWaveView.m */; };
+		DEF6461B1D5493F900454CAA /* CPWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF646191D5493F900454CAA /* CPWaveLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE8E03CB1D44852F00F41EAF /* CoreAnimationDemo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8E03CF1D44852F00F41EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8E03D11D44852F00F41EAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8E03D21D44852F00F41EAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8E03D41D44852F00F41EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8E03D71D44852F00F41EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8E03D91D44852F00F41EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF6460B1D5492F700454CAA /* RecordWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordWaveView.h; sourceTree = "<group>"; };
+		DEF6460C1D5492F700454CAA /* RecordWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordWaveView.m; sourceTree = "<group>"; };
+		DEF6460D1D5492F700454CAA /* WaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLayer.h; sourceTree = "<group>"; };
+		DEF6460E1D5492F700454CAA /* WaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLayer.m; sourceTree = "<group>"; };
+		DEF6460F1D5492F700454CAA /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		DEF646101D5492F700454CAA /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		DEF646161D5493F900454CAA /* CPRecordWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPRecordWaveView.h; sourceTree = "<group>"; };
+		DEF646171D5493F900454CAA /* CPRecordWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRecordWaveView.m; sourceTree = "<group>"; };
+		DEF646181D5493F900454CAA /* CPWaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPWaveLayer.h; sourceTree = "<group>"; };
+		DEF646191D5493F900454CAA /* CPWaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPWaveLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8E03C81D44852F00F41EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8E03C21D44852F00F41EAF = {
+			isa = PBXGroup;
+			children = (
+				DE8E03CD1D44852F00F41EAF /* CoreAnimationDemo3 */,
+				DE8E03CC1D44852F00F41EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8E03CC1D44852F00F41EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E03CB1D44852F00F41EAF /* CoreAnimationDemo3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8E03CD1D44852F00F41EAF /* CoreAnimationDemo3 */ = {
+			isa = PBXGroup;
+			children = (
+				DEF646151D54932800454CAA /* CustomProperty */,
+				DEF646141D54931A00454CAA /* DisplayLink */,
+				DEF6460F1D5492F700454CAA /* WaveViewController.h */,
+				DEF646101D5492F700454CAA /* WaveViewController.m */,
+				DE8E03D11D44852F00F41EAF /* AppDelegate.h */,
+				DE8E03D21D44852F00F41EAF /* AppDelegate.m */,
+				DE8E03D41D44852F00F41EAF /* Assets.xcassets */,
+				DE8E03D61D44852F00F41EAF /* LaunchScreen.storyboard */,
+				DE8E03D91D44852F00F41EAF /* Info.plist */,
+				DE8E03CE1D44852F00F41EAF /* Supporting Files */,
+			);
+			path = CoreAnimationDemo3;
+			sourceTree = "<group>";
+		};
+		DE8E03CE1D44852F00F41EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E03CF1D44852F00F41EAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF646141D54931A00454CAA /* DisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6460B1D5492F700454CAA /* RecordWaveView.h */,
+				DEF6460C1D5492F700454CAA /* RecordWaveView.m */,
+				DEF6460D1D5492F700454CAA /* WaveLayer.h */,
+				DEF6460E1D5492F700454CAA /* WaveLayer.m */,
+			);
+			name = DisplayLink;
+			sourceTree = "<group>";
+		};
+		DEF646151D54932800454CAA /* CustomProperty */ = {
+			isa = PBXGroup;
+			children = (
+				DEF646161D5493F900454CAA /* CPRecordWaveView.h */,
+				DEF646171D5493F900454CAA /* CPRecordWaveView.m */,
+				DEF646181D5493F900454CAA /* CPWaveLayer.h */,
+				DEF646191D5493F900454CAA /* CPWaveLayer.m */,
+			);
+			name = CustomProperty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8E03CA1D44852F00F41EAF /* CoreAnimationDemo3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8E03DC1D44852F00F41EAF /* Build configuration list for PBXNativeTarget "CoreAnimationDemo3" */;
+			buildPhases = (
+				DE8E03C71D44852F00F41EAF /* Sources */,
+				DE8E03C81D44852F00F41EAF /* Frameworks */,
+				DE8E03C91D44852F00F41EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAnimationDemo3;
+			productName = CoreAnimationDemo3;
+			productReference = DE8E03CB1D44852F00F41EAF /* CoreAnimationDemo3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8E03C31D44852F00F41EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Chengyin;
+				TargetAttributes = {
+					DE8E03CA1D44852F00F41EAF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE8E03C61D44852F00F41EAF /* Build configuration list for PBXProject "CoreAnimationDemo3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8E03C21D44852F00F41EAF;
+			productRefGroup = DE8E03CC1D44852F00F41EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8E03CA1D44852F00F41EAF /* CoreAnimationDemo3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8E03C91D44852F00F41EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E03D51D44852F00F41EAF /* Assets.xcassets in Resources */,
+				DE8E03D81D44852F00F41EAF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8E03C71D44852F00F41EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E03D31D44852F00F41EAF /* AppDelegate.m in Sources */,
+				DE8E03D01D44852F00F41EAF /* main.m in Sources */,
+				DEF6461B1D5493F900454CAA /* CPWaveLayer.m in Sources */,
+				DEF646121D5492F700454CAA /* WaveLayer.m in Sources */,
+				DEF646131D5492F700454CAA /* WaveViewController.m in Sources */,
+				DEF646111D5492F700454CAA /* RecordWaveView.m in Sources */,
+				DEF6461A1D5493F900454CAA /* CPRecordWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8E03D61D44852F00F41EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8E03D71D44852F00F41EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8E03DA1D44852F00F41EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8E03DB1D44852F00F41EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8E03DD1D44852F00F41EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreAnimationDemo3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NetEase.CoreAnimationDemo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE8E03DE1D44852F00F41EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreAnimationDemo3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NetEase.CoreAnimationDemo3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8E03C61D44852F00F41EAF /* Build configuration list for PBXProject "CoreAnimationDemo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E03DA1D44852F00F41EAF /* Debug */,
+				DE8E03DB1D44852F00F41EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8E03DC1D44852F00F41EAF /* Build configuration list for PBXNativeTarget "CoreAnimationDemo3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E03DD1D44852F00F41EAF /* Debug */,
+				DE8E03DE1D44852F00F41EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8E03C31D44852F00F41EAF /* Project object */;
+}

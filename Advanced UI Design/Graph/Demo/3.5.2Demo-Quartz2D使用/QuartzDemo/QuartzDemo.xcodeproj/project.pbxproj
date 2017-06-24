@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038067471D3BC37D005BE26E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067461D3BC37D005BE26E /* main.m */; };
+		0380674A1D3BC37D005BE26E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067491D3BC37D005BE26E /* AppDelegate.m */; };
+		0380674D1D3BC37D005BE26E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0380674C1D3BC37D005BE26E /* ViewController.m */; };
+		038067501D3BC37D005BE26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0380674E1D3BC37D005BE26E /* Main.storyboard */; };
+		038067521D3BC37D005BE26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038067511D3BC37D005BE26E /* Assets.xcassets */; };
+		038067551D3BC37D005BE26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038067531D3BC37D005BE26E /* LaunchScreen.storyboard */; };
+		038067601D3BC37D005BE26E /* QuartzDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0380675F1D3BC37D005BE26E /* QuartzDemoTests.m */; };
+		0380676B1D3BC37D005BE26E /* QuartzDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0380676A1D3BC37D005BE26E /* QuartzDemoUITests.m */; };
+		038067A01D3BC3C9005BE26E /* NECircleProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0380677E1D3BC3C9005BE26E /* NECircleProgressViewController.m */; };
+		038067A11D3BC3C9005BE26E /* NEPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067801D3BC3C9005BE26E /* NEPieChartViewController.m */; };
+		038067A31D3BC3C9005BE26E /* NESnapShotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067841D3BC3C9005BE26E /* NESnapShotController.m */; };
+		038067A51D3BC3C9005BE26E /* Panda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 038067871D3BC3C9005BE26E /* Panda@2x.png */; };
+		038067A91D3BC3C9005BE26E /* NECircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067901D3BC3C9005BE26E /* NECircleChart.m */; };
+		038067AA1D3BC3C9005BE26E /* NEPieChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067921D3BC3C9005BE26E /* NEPieChartItem.m */; };
+		038067AB1D3BC3C9005BE26E /* NEPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 038067941D3BC3C9005BE26E /* NEPieChartView.m */; };
+		038067AE1D3BC3C9005BE26E /* UIImage+NEKits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0380679A1D3BC3C9005BE26E /* UIImage+NEKits.m */; };
+		E6AAA9361D420E7800385104 /* NERoundRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AAA9351D420E7800385104 /* NERoundRectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0380675C1D3BC37D005BE26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0380673A1D3BC37D005BE26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038067411D3BC37D005BE26E;
+			remoteInfo = QuartzDemo;
+		};
+		038067671D3BC37D005BE26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0380673A1D3BC37D005BE26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038067411D3BC37D005BE26E;
+			remoteInfo = QuartzDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038067421D3BC37D005BE26E /* QuartzDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038067461D3BC37D005BE26E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		038067481D3BC37D005BE26E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		038067491D3BC37D005BE26E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0380674B1D3BC37D005BE26E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0380674C1D3BC37D005BE26E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0380674F1D3BC37D005BE26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038067511D3BC37D005BE26E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038067541D3BC37D005BE26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		038067561D3BC37D005BE26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0380675B1D3BC37D005BE26E /* QuartzDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0380675F1D3BC37D005BE26E /* QuartzDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzDemoTests.m; sourceTree = "<group>"; };
+		038067611D3BC37D005BE26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038067661D3BC37D005BE26E /* QuartzDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0380676A1D3BC37D005BE26E /* QuartzDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzDemoUITests.m; sourceTree = "<group>"; };
+		0380676C1D3BC37D005BE26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038067781D3BC3C9005BE26E /* NEDemoDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEDemoDefinitions.h; sourceTree = "<group>"; };
+		0380677D1D3BC3C9005BE26E /* NECircleProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NECircleProgressViewController.h; sourceTree = "<group>"; };
+		0380677E1D3BC3C9005BE26E /* NECircleProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NECircleProgressViewController.m; sourceTree = "<group>"; };
+		0380677F1D3BC3C9005BE26E /* NEPieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPieChartViewController.h; sourceTree = "<group>"; };
+		038067801D3BC3C9005BE26E /* NEPieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPieChartViewController.m; sourceTree = "<group>"; };
+		038067831D3BC3C9005BE26E /* NESnapShotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESnapShotController.h; sourceTree = "<group>"; };
+		038067841D3BC3C9005BE26E /* NESnapShotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESnapShotController.m; sourceTree = "<group>"; };
+		038067871D3BC3C9005BE26E /* Panda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Panda@2x.png"; sourceTree = "<group>"; };
+		0380678F1D3BC3C9005BE26E /* NECircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NECircleChart.h; sourceTree = "<group>"; };
+		038067901D3BC3C9005BE26E /* NECircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NECircleChart.m; sourceTree = "<group>"; };
+		038067911D3BC3C9005BE26E /* NEPieChartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPieChartItem.h; sourceTree = "<group>"; };
+		038067921D3BC3C9005BE26E /* NEPieChartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPieChartItem.m; sourceTree = "<group>"; };
+		038067931D3BC3C9005BE26E /* NEPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPieChartView.h; sourceTree = "<group>"; };
+		038067941D3BC3C9005BE26E /* NEPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPieChartView.m; sourceTree = "<group>"; };
+		038067991D3BC3C9005BE26E /* UIImage+NEKits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NEKits.h"; sourceTree = "<group>"; };
+		0380679A1D3BC3C9005BE26E /* UIImage+NEKits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NEKits.m"; sourceTree = "<group>"; };
+		E6AAA9341D420E7800385104 /* NERoundRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NERoundRectViewController.h; sourceTree = "<group>"; };
+		E6AAA9351D420E7800385104 /* NERoundRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NERoundRectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0380673F1D3BC37D005BE26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067581D3BC37D005BE26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067631D3BC37D005BE26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0379C0951D3DF7ED0079C669 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				038067871D3BC3C9005BE26E /* Panda@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		038067391D3BC37D005BE26E = {
+			isa = PBXGroup;
+			children = (
+				038067441D3BC37D005BE26E /* QuartzDemo */,
+				0380675E1D3BC37D005BE26E /* QuartzDemoTests */,
+				038067691D3BC37D005BE26E /* QuartzDemoUITests */,
+				038067431D3BC37D005BE26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038067431D3BC37D005BE26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038067421D3BC37D005BE26E /* QuartzDemo.app */,
+				0380675B1D3BC37D005BE26E /* QuartzDemoTests.xctest */,
+				038067661D3BC37D005BE26E /* QuartzDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038067441D3BC37D005BE26E /* QuartzDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0379C0951D3DF7ED0079C669 /* Resources */,
+				038067B11D3BC3D1005BE26E /* Controllers */,
+				0380678E1D3BC3C9005BE26E /* Views */,
+				038067781D3BC3C9005BE26E /* NEDemoDefinitions.h */,
+				038067481D3BC37D005BE26E /* AppDelegate.h */,
+				038067491D3BC37D005BE26E /* AppDelegate.m */,
+				0380674B1D3BC37D005BE26E /* ViewController.h */,
+				0380674C1D3BC37D005BE26E /* ViewController.m */,
+				0380674E1D3BC37D005BE26E /* Main.storyboard */,
+				038067511D3BC37D005BE26E /* Assets.xcassets */,
+				038067531D3BC37D005BE26E /* LaunchScreen.storyboard */,
+				038067561D3BC37D005BE26E /* Info.plist */,
+				038067451D3BC37D005BE26E /* Supporting Files */,
+			);
+			path = QuartzDemo;
+			sourceTree = "<group>";
+		};
+		038067451D3BC37D005BE26E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				038067461D3BC37D005BE26E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0380675E1D3BC37D005BE26E /* QuartzDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0380675F1D3BC37D005BE26E /* QuartzDemoTests.m */,
+				038067611D3BC37D005BE26E /* Info.plist */,
+			);
+			path = QuartzDemoTests;
+			sourceTree = "<group>";
+		};
+		038067691D3BC37D005BE26E /* QuartzDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0380676A1D3BC37D005BE26E /* QuartzDemoUITests.m */,
+				0380676C1D3BC37D005BE26E /* Info.plist */,
+			);
+			path = QuartzDemoUITests;
+			sourceTree = "<group>";
+		};
+		0380678E1D3BC3C9005BE26E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0380678F1D3BC3C9005BE26E /* NECircleChart.h */,
+				038067901D3BC3C9005BE26E /* NECircleChart.m */,
+				038067911D3BC3C9005BE26E /* NEPieChartItem.h */,
+				038067921D3BC3C9005BE26E /* NEPieChartItem.m */,
+				038067931D3BC3C9005BE26E /* NEPieChartView.h */,
+				038067941D3BC3C9005BE26E /* NEPieChartView.m */,
+				038067991D3BC3C9005BE26E /* UIImage+NEKits.h */,
+				0380679A1D3BC3C9005BE26E /* UIImage+NEKits.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		038067B11D3BC3D1005BE26E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6AAA9341D420E7800385104 /* NERoundRectViewController.h */,
+				E6AAA9351D420E7800385104 /* NERoundRectViewController.m */,
+				0380677D1D3BC3C9005BE26E /* NECircleProgressViewController.h */,
+				0380677E1D3BC3C9005BE26E /* NECircleProgressViewController.m */,
+				0380677F1D3BC3C9005BE26E /* NEPieChartViewController.h */,
+				038067801D3BC3C9005BE26E /* NEPieChartViewController.m */,
+				038067831D3BC3C9005BE26E /* NESnapShotController.h */,
+				038067841D3BC3C9005BE26E /* NESnapShotController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038067411D3BC37D005BE26E /* QuartzDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0380676F1D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemo" */;
+			buildPhases = (
+				0380673E1D3BC37D005BE26E /* Sources */,
+				0380673F1D3BC37D005BE26E /* Frameworks */,
+				038067401D3BC37D005BE26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzDemo;
+			productName = QuartzDemo;
+			productReference = 038067421D3BC37D005BE26E /* QuartzDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0380675A1D3BC37D005BE26E /* QuartzDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038067721D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemoTests" */;
+			buildPhases = (
+				038067571D3BC37D005BE26E /* Sources */,
+				038067581D3BC37D005BE26E /* Frameworks */,
+				038067591D3BC37D005BE26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0380675D1D3BC37D005BE26E /* PBXTargetDependency */,
+			);
+			name = QuartzDemoTests;
+			productName = QuartzDemoTests;
+			productReference = 0380675B1D3BC37D005BE26E /* QuartzDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		038067651D3BC37D005BE26E /* QuartzDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038067751D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemoUITests" */;
+			buildPhases = (
+				038067621D3BC37D005BE26E /* Sources */,
+				038067631D3BC37D005BE26E /* Frameworks */,
+				038067641D3BC37D005BE26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				038067681D3BC37D005BE26E /* PBXTargetDependency */,
+			);
+			name = QuartzDemoUITests;
+			productName = QuartzDemoUITests;
+			productReference = 038067661D3BC37D005BE26E /* QuartzDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0380673A1D3BC37D005BE26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Netease;
+				TargetAttributes = {
+					038067411D3BC37D005BE26E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0380675A1D3BC37D005BE26E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z658GA6WFS;
+						TestTargetID = 038067411D3BC37D005BE26E;
+					};
+					038067651D3BC37D005BE26E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Z658GA6WFS;
+						TestTargetID = 038067411D3BC37D005BE26E;
+					};
+				};
+			};
+			buildConfigurationList = 0380673D1D3BC37D005BE26E /* Build configuration list for PBXProject "QuartzDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038067391D3BC37D005BE26E;
+			productRefGroup = 038067431D3BC37D005BE26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038067411D3BC37D005BE26E /* QuartzDemo */,
+				0380675A1D3BC37D005BE26E /* QuartzDemoTests */,
+				038067651D3BC37D005BE26E /* QuartzDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038067401D3BC37D005BE26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038067551D3BC37D005BE26E /* LaunchScreen.storyboard in Resources */,
+				038067A51D3BC3C9005BE26E /* Panda@2x.png in Resources */,
+				038067521D3BC37D005BE26E /* Assets.xcassets in Resources */,
+				038067501D3BC37D005BE26E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067591D3BC37D005BE26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067641D3BC37D005BE26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0380673E1D3BC37D005BE26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038067A91D3BC3C9005BE26E /* NECircleChart.m in Sources */,
+				E6AAA9361D420E7800385104 /* NERoundRectViewController.m in Sources */,
+				0380674D1D3BC37D005BE26E /* ViewController.m in Sources */,
+				038067A01D3BC3C9005BE26E /* NECircleProgressViewController.m in Sources */,
+				038067A11D3BC3C9005BE26E /* NEPieChartViewController.m in Sources */,
+				038067AB1D3BC3C9005BE26E /* NEPieChartView.m in Sources */,
+				038067AA1D3BC3C9005BE26E /* NEPieChartItem.m in Sources */,
+				038067A31D3BC3C9005BE26E /* NESnapShotController.m in Sources */,
+				0380674A1D3BC37D005BE26E /* AppDelegate.m in Sources */,
+				038067AE1D3BC3C9005BE26E /* UIImage+NEKits.m in Sources */,
+				038067471D3BC37D005BE26E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067571D3BC37D005BE26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038067601D3BC37D005BE26E /* QuartzDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		038067621D3BC37D005BE26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0380676B1D3BC37D005BE26E /* QuartzDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0380675D1D3BC37D005BE26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 038067411D3BC37D005BE26E /* QuartzDemo */;
+			targetProxy = 0380675C1D3BC37D005BE26E /* PBXContainerItemProxy */;
+		};
+		038067681D3BC37D005BE26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 038067411D3BC37D005BE26E /* QuartzDemo */;
+			targetProxy = 038067671D3BC37D005BE26E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0380674E1D3BC37D005BE26E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0380674F1D3BC37D005BE26E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		038067531D3BC37D005BE26E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038067541D3BC37D005BE26E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0380676D1D3BC37D005BE26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0380676E1D3BC37D005BE26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038067701D3BC37D005BE26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuartzDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		038067711D3BC37D005BE26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuartzDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		038067731D3BC37D005BE26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuartzDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzDemo.app/QuartzDemo";
+			};
+			name = Debug;
+		};
+		038067741D3BC37D005BE26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuartzDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuartzDemo.app/QuartzDemo";
+			};
+			name = Release;
+		};
+		038067761D3BC37D005BE26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuartzDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuartzDemo;
+			};
+			name = Debug;
+		};
+		038067771D3BC37D005BE26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuartzDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Netease.QuartzDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuartzDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0380673D1D3BC37D005BE26E /* Build configuration list for PBXProject "QuartzDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0380676D1D3BC37D005BE26E /* Debug */,
+				0380676E1D3BC37D005BE26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0380676F1D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038067701D3BC37D005BE26E /* Debug */,
+				038067711D3BC37D005BE26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038067721D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038067731D3BC37D005BE26E /* Debug */,
+				038067741D3BC37D005BE26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038067751D3BC37D005BE26E /* Build configuration list for PBXNativeTarget "QuartzDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038067761D3BC37D005BE26E /* Debug */,
+				038067771D3BC37D005BE26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0380673A1D3BC37D005BE26E /* Project object */;
+}
