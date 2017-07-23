@@ -40,6 +40,7 @@
 		71ADD7BC1F23CBE8002EBD34 /* StudentsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableView.m; sourceTree = "<group>"; };
 		71ADD7BE1F23CBF8002EBD34 /* ObjectsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectsTableView.h; sourceTree = "<group>"; };
 		71ADD7BF1F23CBF8002EBD34 /* ObjectsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectsTableView.m; sourceTree = "<group>"; };
+		71ADD7C11F24BDD7002EBD34 /* student.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = student.db; path = ../../../../../../../student.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		71ADD7971F231E7C002EBD34 /* StudentInfoManagementSystem */ = {
 			isa = PBXGroup;
 			children = (
+				71ADD7C11F24BDD7002EBD34 /* student.db */,
 				71ADD79B1F231E7C002EBD34 /* AppDelegate.h */,
 				71ADD79C1F231E7C002EBD34 /* AppDelegate.m */,
 				71ADD7A11F231E7C002EBD34 /* Main.storyboard */,
