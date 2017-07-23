@@ -1,0 +1,15 @@
+//
+//  Contact.m
+//  ContactDemo
+//
+//  Created by amao on 16/7/19.
+//  Copyright © 2016年 NetEase. All rights reserved.
+//
+
+#import "Contact.h"
+
+@implementation Contact
+
+// Insert code here to add functionality to your managed object subclass
+
+@end
