@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bz8-Nb-rfg">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="BVZ-ek-aUT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1TW-cX-woL">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="bi2-pw-jkC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svj-rP-alk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9dN-Zg-tSk"/>
+                                    <constraint firstAttribute="width" constant="103" id="uWE-lg-l1i"/>
+                                </constraints>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <action selector="downloadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Si-Ne-0uW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kaz-yD-3gY">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DOc-8W-yjh"/>
+                                    <constraint firstAttribute="width" constant="80" id="Zkc-YU-rkW"/>
+                                </constraints>
+                                <state key="normal" title="成组下载"/>
+                                <connections>
+                                    <action selector="groupDownloadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FcC-sV-aFc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Svj-rP-alk" secondAttribute="bottom" constant="64" id="6as-fZ-C03"/>
+                            <constraint firstItem="1TW-cX-woL" firstAttribute="width" secondItem="bz8-Nb-rfg" secondAttribute="width" id="8n6-ES-hHb"/>
+                            <constraint firstItem="1TW-cX-woL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="9sR-14-Wdt"/>
+                            <constraint firstItem="bz8-Nb-rfg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="DL6-EA-laT"/>
+                            <constraint firstItem="1TW-cX-woL" firstAttribute="leading" secondItem="bz8-Nb-rfg" secondAttribute="trailing" constant="50" id="Dlf-t4-cn2"/>
+                            <constraint firstItem="1TW-cX-woL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KUb-zL-SBt"/>
+                            <constraint firstItem="Svj-rP-alk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="PY9-ei-8SN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kaz-yD-3gY" secondAttribute="trailing" constant="40" id="bfC-Kl-iUR"/>
+                            <constraint firstItem="bz8-Nb-rfg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="j0O-7t-SKb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kaz-yD-3gY" secondAttribute="bottom" constant="64" id="lHS-Vi-k95"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="bz8-Nb-rfg" id="fo5-DH-fpz"/>
+                        <outlet property="rightImageView" destination="1TW-cX-woL" id="Uad-Hi-pln"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+    </scenes>
+</document>
