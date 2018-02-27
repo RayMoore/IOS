@@ -120,6 +120,12 @@
     self.checkoutTotalPriceIncludingTax = afterUpdatedValue;
 }
 
+// update checkout button when select 
+- (void)updateTotalNum:(NSInteger)itemNum{
+    self.totalItemNum += itemNum;
+    [self.checkoutButton setTitle: [@"结算" stringByAppendingFormat:@"(%ld)",self.totalItemNum]forState:UIControlStateNormal];
+}
+
 
 - (void)chooseCellWithIndexPath:(NSIndexPath*)indexPath{
     CellPosition *posForFactoryView = [[CellPosition alloc] initWithSection:indexPath.section andRow:0];
@@ -131,6 +137,7 @@
     [summaryView addPrice:price andTax:tax];
     [self updateTotalTax:tax];
     [self updateTotalPrice:price];
+    [self updateTotalNum:1];
 }
 
 
@@ -144,6 +151,7 @@
     [summaryView substractPrice:price andTax:tax];
     [self updateTotalTax:-tax];
     [self updateTotalPrice:-price];
+    [self updateTotalNum:-1];
 }
 
 - (void)sectionAllChoose:(NSInteger)section andSelection:(BOOL)ifChoose{

@@ -14,14 +14,14 @@
 		719B86E91EE3DD59002C072D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719B86E71EE3DD59002C072D /* LaunchScreen.storyboard */; };
 		719B86F71EE3FE5A002C072D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B86F61EE3FE5A002C072D /* LoginViewController.m */; };
 		719B86FA1EE3FE70002C072D /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B86F91EE3FE70002C072D /* BlogViewController.m */; };
-		719B86FF1EE3FFA6002C072D /* 我的主页标注.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 719B86FC1EE3FFA6002C072D /* 我的主页标注.jpg */; };
-		719B87001EE3FFA6002C072D /* 登录 标注2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 719B86FD1EE3FFA6002C072D /* 登录 标注2.jpg */; };
-		719B87011EE3FFA6002C072D /* 登录标注.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 719B86FE1EE3FFA6002C072D /* 登录标注.jpg */; };
 		719B87041EE43A26002C072D /* ArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B87031EE43A26002C072D /* ArticleView.m */; };
 		719B87061EE43A4A002C072D /* ArticleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719B87051EE43A4A002C072D /* ArticleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		718F2A442043996600B022DD /* 登录标注.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "登录标注.jpg"; path = "../../layout guide/标注稿/登录标注.jpg"; sourceTree = "<group>"; };
+		718F2A452043996600B022DD /* 我的主页标注.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "我的主页标注.jpg"; path = "../../layout guide/标注稿/我的主页标注.jpg"; sourceTree = "<group>"; };
+		718F2A462043996700B022DD /* 登录 标注2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "登录 标注2.jpg"; path = "../../layout guide/标注稿/登录 标注2.jpg"; sourceTree = "<group>"; };
 		719B86D61EE3DD59002C072D /* UIView-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIView-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719B86DA1EE3DD59002C072D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		719B86DC1EE3DD59002C072D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +87,9 @@
 		719B86D91EE3DD59002C072D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				718F2A452043996600B022DD /* 我的主页标注.jpg */,
+				718F2A462043996700B022DD /* 登录 标注2.jpg */,
+				718F2A442043996600B022DD /* 登录标注.jpg */,
 				719B86DA1EE3DD59002C072D /* main.m */,
 				719B86F51EE3FE5A002C072D /* LoginViewController.h */,
 				719B86F61EE3FE5A002C072D /* LoginViewController.m */,
@@ -168,11 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				719B86E91EE3DD59002C072D /* LaunchScreen.storyboard in Resources */,
-				719B86FF1EE3FFA6002C072D /* 我的主页标注.jpg in Resources */,
-				719B87001EE3FFA6002C072D /* 登录 标注2.jpg in Resources */,
 				719B87061EE43A4A002C072D /* ArticleView.xib in Resources */,
 				719B86E61EE3DD59002C072D /* Assets.xcassets in Resources */,
-				719B87011EE3FFA6002C072D /* 登录标注.jpg in Resources */,
 				719B86E41EE3DD59002C072D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +347,7 @@
 				719B86EF1EE3DD59002C072D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

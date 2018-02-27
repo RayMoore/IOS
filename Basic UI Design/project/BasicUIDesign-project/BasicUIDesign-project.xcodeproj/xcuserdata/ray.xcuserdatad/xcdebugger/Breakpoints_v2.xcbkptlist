@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BasicUIDesign-project/CartMainViewController.m"
-            timestampString = "519453074.156095"
+            timestampString = "541307878.650508"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-updateCellByShowingTaxDetailWithCellIndexPath:andIfShowTaxDetail:"
             landmarkType = "7">
          </BreakpointContent>
