@@ -18,6 +18,8 @@
 		71ADD7BA1F23CB2E002EBD34 /* ObjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD7B91F23CB2E002EBD34 /* ObjectsViewController.m */; };
 		71ADD7BD1F23CBE8002EBD34 /* StudentsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD7BC1F23CBE8002EBD34 /* StudentsTableView.m */; };
 		71ADD7C01F23CBF8002EBD34 /* ObjectsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD7BF1F23CBF8002EBD34 /* ObjectsTableView.m */; };
+		71ADD7E71F289682002EBD34 /* SystemManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD7E61F289682002EBD34 /* SystemManagerViewController.m */; };
+		71ADD7E91F2899CE002EBD34 /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71ADD7E81F2899CE002EBD34 /* TabbarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		71ADD7BE1F23CBF8002EBD34 /* ObjectsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectsTableView.h; sourceTree = "<group>"; };
 		71ADD7BF1F23CBF8002EBD34 /* ObjectsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectsTableView.m; sourceTree = "<group>"; };
 		71ADD7C11F24BDD7002EBD34 /* student.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = student.db; path = ../../../../../../../student.db; sourceTree = "<group>"; };
+		71ADD7E51F289682002EBD34 /* SystemManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemManagerViewController.h; sourceTree = "<group>"; };
+		71ADD7E61F289682002EBD34 /* SystemManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemManagerViewController.m; sourceTree = "<group>"; };
+		71ADD7E81F2899CE002EBD34 /* TabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,9 @@
 		71ADD7981F231E7C002EBD34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71ADD7E81F2899CE002EBD34 /* TabbarViewController.xib */,
+				71ADD7E51F289682002EBD34 /* SystemManagerViewController.h */,
+				71ADD7E61F289682002EBD34 /* SystemManagerViewController.m */,
 				71ADD7991F231E7C002EBD34 /* main.m */,
 				71ADD7AF1F23215B002EBD34 /* TabbarViewController.h */,
 				71ADD7B01F23215B002EBD34 /* TabbarViewController.m */,
@@ -171,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71ADD7E91F2899CE002EBD34 /* TabbarViewController.xib in Resources */,
 				71ADD7A81F231E7C002EBD34 /* LaunchScreen.storyboard in Resources */,
 				71ADD7A51F231E7C002EBD34 /* Assets.xcassets in Resources */,
 				71ADD7A31F231E7C002EBD34 /* Main.storyboard in Resources */,
@@ -191,6 +200,7 @@
 				71ADD7BD1F23CBE8002EBD34 /* StudentsTableView.m in Sources */,
 				71ADD79A1F231E7C002EBD34 /* main.m in Sources */,
 				71ADD7B11F23215B002EBD34 /* TabbarViewController.m in Sources */,
+				71ADD7E71F289682002EBD34 /* SystemManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +357,7 @@
 				71ADD7AE1F231E7C002EBD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
